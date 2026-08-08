@@ -1,0 +1,207 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+
+html{
+    scroll-behavior:smooth;
+}
+
+body{
+    font-family:Arial, sans-serif;
+    background:#FFF8E7;
+    color:#3B2416;
+}
+
+
+/* HEADER */
+
+header{
+    background:#3B1F14;
+    color:#F4C95D;
+    text-align:center;
+    padding:30px 20px;
+}
+
+.logo{
+    font-size:34px;
+    font-weight:bold;
+}
+
+header p{
+    margin-top:10px;
+    color:#FFE8B6;
+    font-size:15px;
+}
+
+
+/* NAVIGATION */
+
+nav{
+    background:#6B3E26;
+    text-align:center;
+    padding:15px;
+    position:sticky;
+    top:0;
+    z-index:10;
+}
+
+nav a{
+    color:#FFF4D6;
+    text-decoration:none;
+    margin:0 18px;
+    font-weight:bold;
+}
+
+nav a:hover{
+    color:#F4C95D;
+}
+
+
+/* HERO */
+
+.hero{
+    text-align:center;
+    padding:60px 20px;
+    background:#F4C95D;
+}
+
+.hero h1{
+    font-size:38px;
+    color:#3B1F14;
+    margin-bottom:12px;
+}
+
+.hero p{
+    font-size:18px;
+    color:#5A321E;
+}
+
+
+/* MENU */
+
+.menu{
+    width:850px;
+    max-width:90%;
+    margin:40px auto;
+}
+
+.menu > h2{
+    text-align:center;
+    color:#6B3E26;
+    font-size:30px;
+    margin-bottom:30px;
+}
+
+
+/* CATEGORY */
+
+.category{
+    background:#FFFFFF;
+    margin-bottom:30px;
+    padding:25px;
+    border-radius:15px;
+    border-left:7px solid #D99A2B;
+    box-shadow:0 5px 15px rgba(0,0,0,0.10);
+}
+
+.category h3{
+    color:#8B4513;
+    font-size:24px;
+    margin-bottom:18px;
+}
+
+
+/* MENU ITEM */
+
+.menu-item{
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    padding:18px 5px;
+    border-bottom:1px solid #E6D5B8;
+}
+
+.menu-item:last-child{
+    border-bottom:none;
+}
+
+.menu-item h4{
+    color:#3B1F14;
+    font-size:18px;
+    margin-bottom:6px;
+}
+
+.menu-item p{
+    color:#777;
+    font-size:14px;
+}
+
+.menu-item span{
+    color:#B66A00;
+    font-size:18px;
+    font-weight:bold;
+    background:#FFF3CD;
+    padding:8px 14px;
+    border-radius:20px;
+}
+
+
+/* CONTACT */
+
+.contact{
+    text-align:center;
+    background:#3B1F14;
+    color:#FFE8B6;
+    padding:35px 20px;
+}
+
+.contact h2{
+    color:#F4C95D;
+    margin-bottom:15px;
+}
+
+.contact p{
+    margin:8px;
+}
+
+
+/* FOOTER */
+
+footer{
+    background:#24130D;
+    color:#D8C3A5;
+    text-align:center;
+    padding:18px;
+    font-size:14px;
+}
+
+
+/* RESPONSIVE */
+
+@media(max-width:600px){
+
+    .logo{
+        font-size:27px;
+    }
+
+    nav a{
+        display:inline-block;
+        margin:6px 8px;
+        font-size:14px;
+    }
+
+    .hero h1{
+        font-size:28px;
+    }
+
+    .menu-item{
+        gap:15px;
+    }
+
+    .menu-item p{
+        font-size:13px;
+    }
+
+}
